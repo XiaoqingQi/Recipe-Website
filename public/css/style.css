@@ -1,0 +1,123 @@
+body{
+	padding-top: 70px;
+}
+.header {
+	background: #2c3e50;
+}
+.header .navbar-nav>li>a {
+	color: white;
+}
+.header .navbar-brand {
+	color: white;
+}
+.homepage-jumbotron {
+	color: #2c3e50;
+	background: #ecf0f1;
+}
+.homepage-jumbotron a {
+	margin-top: 20px;
+}
+.homepage img {
+    height:230px;
+    width:250px;
+}
+.homepage h3 {
+	position: relative;
+	left: 20px;
+}
+.homepage a {
+	width: 200px;
+	position: relative;
+	left: 20px;
+}
+.login {
+	width: 250px;
+}
+.register {
+	width: 250px;
+}
+.login-button {
+	width: 250px;
+	margin-top: 20px;
+}
+.register-button {
+	width: 250px;
+	margin-top: 20px;
+}
+.recipe-name {
+	width: 400px;
+}
+.recipe-img {
+	width: 400px;
+	margin-top: 10px;
+}
+.recipe-description {
+	margin-top: 10px;
+	width: 400px;
+}
+.recipe-add {
+	width: 400px;
+	margin-top: 20px;
+}
+.show img {
+	height:400px;
+    width:400px;
+}
+.show {
+	height: 410px;
+}
+.show-comments {
+	position: relative;
+	left: 50px;
+}
+.show-date {
+	font-family: Futura;
+	color: red;
+}
+.show-author {
+	font-family: Futura;
+	color: red;
+}
+.show-edit {
+	width: 60px;
+	position: absolute;
+	right: 85px;
+	bottom: 25px;
+}
+.show-delete {
+	width: 60px;
+	position: absolute;
+	right: 20px;
+	bottom: 25px;
+}
+.edit-recipe-name {
+	width: 490px;
+}
+.edit-recipe-image {
+	width: 490px;
+}
+.edit-recipe-description {
+	width: 490px;
+	height: 300px;
+	margin-bottom: 10px;
+}
+.edit-submit {
+	margin-top: 20px;
+	width: 490px;
+}
+.comment-label {
+	position: relative;
+	left: 40%;
+	margin-bottom: 20px;
+}
+.comment-text {
+	width: 500px;
+	position: relative;
+	left: 20%;
+	margin-bottom: 20px;
+}
+.comment-submit {
+	width: 500px;
+	position: relative;
+	left: 20%;
+}

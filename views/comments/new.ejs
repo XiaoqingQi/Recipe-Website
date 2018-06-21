@@ -1,0 +1,21 @@
+<% include ../partials/header %>
+
+	<form action="/recipes/<%= recipe._id %>/comments" method="POST">
+		<div class="container">
+			<div class="jumbotron">
+		    	<div>
+					<div>
+						<label class="comment-label">Comment</label>
+					</div>
+				    <div>
+				    	<textarea name="comment[text]" class="comment-text" placeholder="Add your comment here..."></textarea>
+				    	<div class="submit">
+		    				<button type="submit" class="btn btn-success comment-submit">Submit</button>
+		    			</div>
+				    </div>
+				</div>
+			</div>
+		</div>
+	</form>
+	
+<% include ../partials/footer %>

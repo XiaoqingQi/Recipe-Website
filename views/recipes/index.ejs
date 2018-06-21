@@ -1,0 +1,19 @@
+<% include ../partials/header %>
+
+	<div class="container">
+		<div class="row">
+			<% recipes.forEach(function(recipe){ %>
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+				    <div class="thumbnail recipes">
+				    	<a href="/recipes/<%= recipe._id %>">
+					    <img src="<%= recipe.image %>" class="img-rounded" style="height: 300px; width: 250px;">
+					    <div class="caption">
+					         <h3><%= recipe.name %></h3>
+			    		</div>
+				    </div>
+				</div>
+			<% }) %>
+		</div>	
+	</div>
+
+<% include ../partials/footer %>
